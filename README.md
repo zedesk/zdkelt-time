@@ -9,3 +9,5 @@ Example:
 It can also display the time from now.
 
     <zdkelt-time i18n="en" format="time-ago"></zdkelt-time>
+
+consult the [demo page](http://zedesk.github.io/zdkelt-time)
