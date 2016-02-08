@@ -1,0 +1,45 @@
+{
+  "name": "zdkelt-time",
+  "version": "1.0.0",
+  "authors": [
+    "zeDesk <dev@zedesk.net>"
+  ],
+  "description": "A webcomponent to display an ISO date into a given locale format",
+  "main": "zdkelt-time.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zedesk/zdkelt-time.git"
+  },
+  "license": "https://github.com/zedesk/zdkelt-time/LICENCE",
+  "homepage": "http://zedesk.github.io/zdkelt-time",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "date",
+    "time"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.4",
+    "moment": "^2.11.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.4",
+    "web-component-tester": "^4.2.0"
+  },
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.0",
+    "commit": "786d1334c64f22f9f64c2a9aac3428ae8655992d"
+  },
+  "_source": "git://github.com/zedesk/zdkelt-time.git",
+  "_target": "^1.0.0",
+  "_originalSource": "zedesk/zdkelt-time",
+  "_direct": true
+}

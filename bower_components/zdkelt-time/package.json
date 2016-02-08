@@ -1,0 +1,26 @@
+{
+  "name": "zdkelt-time",
+  "version": "1.0.0",
+  "description": "A webcomponent to display a ISO date into a given locale",
+  "main": "zdkelt-time.html",
+  "scripts": {
+    "test": "wct",
+    "clean": "rm -rf bower-components",
+    "postinstall": "bower install",
+    "start":"polyserve"
+  },
+  "author": "zedesk <dev@zedesk.net>",
+  "license": "https://github.com/zedesk/zdkelt-time/LICENCE",
+  "bugs": {
+    "url": "https://github.com/zedesk/zdkelt-time/issues"
+  },
+  "homepage": "https://github.com/zedesk/zdkelt-time#readme",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "crisper": "^2.0.1",
+    "jscs": "^2.9.0",
+    "polylint": "^2.9.0",
+    "polyserve": "^0.5.0",
+    "web-component-tester": "^4.1.0"
+  }
+}
