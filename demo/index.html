@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>zdkelt-time</title>
+        <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
+        <link rel="import" href="../zdkelt-time.html">
+        <link rel="import" href="../../paper-styles/paper-styles.html">
+        <style>
+        body {
+            font-family: Roboto, Verdana, Arial;
+        }
+        </style>
+    </head>
+    <body>
+        <p>French format : <zdkelt-time i18n="fr"></zdkelt-time></p>
+        <p>US format : <zdkelt-time i18n="en"></zdkelt-time></p>
+        <p>UK format : <zdkelt-time i18n="en-GB"></zdkelt-time></p>
+        <hr/>
+        <h3>Only the date</h3>
+        <p>French format : <zdkelt-time i18n="fr" format="L"></zdkelt-time></p>
+        <p>US format : <zdkelt-time i18n="en" format="L"></zdkelt-time></p>
+        <p>UK format : <zdkelt-time i18n="en-GB" format="L"></zdkelt-time></p>
+        <hr/>
+        <h3>Only the time</h3>
+        <p>French format : <zdkelt-time i18n="fr" format="LT"></zdkelt-time></p>
+        <p>US format : <zdkelt-time i18n="en" format="LT"></zdkelt-time></p>
+        <p>UK format : <zdkelt-time i18n="en-GB" format="LT"></zdkelt-time></p>
+        <hr/>
+        <h3>When was chritmas ?</h3>
+        <p>French format : <zdkelt-time i18n="fr" datetime="2015-12-25T13:00Z" format="time-ago"></zdkelt-time></p>
+        <p>US format : <zdkelt-time i18n="en" datetime="2015-12-25T13:00Z" format="time-ago"></zdkelt-time></p>
+        <p>Chinese format : <zdkelt-time i18n="zh-cn" datetime="2015-12-25T13:00Z" format="time-ago"></zdkelt-time></p>
+    </body>
+</html>
